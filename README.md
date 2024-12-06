@@ -40,21 +40,18 @@ Abaixo estão os principais scripts configurados no projeto:
 
 ```bash
 npm run dev
-Esse comando vai iniciar o servidor de desenvolvimento, onde você pode visualizar a aplicação localmente.
 ```
 
 - Executar os testes unitários com Vitest:
 
 ```bash
 npm run test:unit
-Este comando executa os testes unitários do projeto utilizando o Vitest.
 ```
 
 - Construir a aplicação para produção:
 
 ```bash
 npm run build
-Esse comando compila e prepara o projeto para ser executado em um ambiente de produção.
 ```
 
 ## Como funciona
