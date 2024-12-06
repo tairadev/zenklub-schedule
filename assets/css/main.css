@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  --primary-color: #5127a4;
+  --secondary-color: #eee6fc;
+  --title-color: rgb(75, 80, 84);
+  --secondary-text: rgb(64, 65, 65);
+  --tertiary-text: rgb(92, 103, 108);
+  --infos-text: rgb(80, 93, 101);
+  --button-color: #fff;
+  --modal-background: #f7f9fa;
+  --time-border: #f0f2f5;
+  --black: #000;
+  --danger-color: #e33946;
+  --carousel-title-color: #1f2937;
+  --carousel-subtitle-color: #9ca3af;
+  --input-border-color: #ced4db80;
+  --star-color: #fc0;
+  --star-bg: #e1e5ed;
+  --modal-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  --scrollbar-thumb: rgba(100, 100, 100, 0.4);
+  --scrollbar-thumb-hover: rgba(100, 100, 100, 0.6);
+  --scrollbar-track: rgba(240, 240, 240, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+html,
+body {
+  background: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track);
+  border-radius: 10px;
+}
+
+.primary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: auto;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--button-color);
+  padding: 0 16px;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover:not(:disabled) {
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.primary-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: auto;
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 0 16px;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.secondary-btn:hover:not(:disabled) {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--button-color);
+}
+
+.secondary-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.tertiary-btn {
+  color: var(--primary-color);
+  font-weight: 600;
+}
